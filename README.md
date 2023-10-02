@@ -4,9 +4,9 @@
 
 Achieving fitness and beauty has never been more accessible. Welcome to Gym-Khana, your go-to resource for transforming your body and enhancing your appearance. Whether you're a fitness enthusiast or beauty seeker, Gym-Khana provides you with the guidance you need.
 
-Website: [Gym-Khana](https://example.com/gym-khana)
+Website: [Gym-Khana](https://gym-khana.vercel.app/)
 
-This project is managed by: [Your Name](https://github.com/your-github-username)
+This project is managed by: [Abhay Kumar](https://github.com/KumarAbhay98)
 
 Note: <i>This project aims to assist beginners in their journey towards a healthier lifestyle.</i>
 
@@ -30,25 +30,12 @@ Contributing to Gym-Khana is straightforward. Just follow these steps:
             <!-- Replace image_name_here with the complete image name (with extension) that you uploaded -->
             <img src="./images/[image_name_here]" alt="[Tip Title here]" height="390px" width="300px">
         </div>
-        <div class="col-md-8">
-            <div class="card-body">
-                <h2 class="card-title">[Tip Title]</h2>
-                <p class="card-text">
-                    [Tip Description 1 Here]
-                </p>
-                <p>
-                    [Tip Description 2 Here]
-                </p>
-                <hr>
-                <p>Contributed by- [Your Name here]</p>
-            </div>
-        </div>
     </div>
 </div>
 <!-- Sample [Tip Title] card end -->
 <!-- Add your card below this line -->
 
-- Paste the edited template code into the `index.html` file just below the last added card.
+- Paste the edited template code into the `data.js` file just below the last blog added.
 - `Sync` your fork and create a `Pull Request`. Resolve any conflicts with the main branch if necessary.
 - Title your PR with the following format:
 
