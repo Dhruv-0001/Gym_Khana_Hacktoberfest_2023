@@ -1,4 +1,7 @@
 <div class="container p-5">
+    <div class="search-container p-5">
+        <input type="text" id="blogSearchInput" class="form-control" placeholder="Search for blog posts...">
+    </div>
     <div class="row">
         {{!-- Loop through each blog post --}}
         {{#each blogs}}
@@ -16,3 +19,31 @@
         {{/each}}
     </div>
 </div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        // Reference to the input field
+        var $searchInput = $('#blogSearchInput');
+
+        // Reference to the blog post container
+        var $blogContainer = $('.row');
+
+        // Event listener for input changes
+        $searchInput.on('input', function () {
+            var searchQuery = $(this).val().toLowerCase();
+
+            // Loop through each blog post
+            $blogContainer.find('.col-lg-4').each(function () {
+                var $blogPost = $(this);
+                var blogTitle = $blogPost.find('h2').text().toLowerCase();
+
+                // Check if the blog post title contains the search query
+                if (blogTitle.indexOf(searchQuery) !== -1) {
+                    $blogPost.show();
+                } else {
+                    $blogPost.hide();
+                }
+            });
+        });
+    });
+</script>

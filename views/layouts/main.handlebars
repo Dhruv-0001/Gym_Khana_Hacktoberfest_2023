@@ -191,6 +191,49 @@
             background-color: grey;
             color: #333;
         }
+        /* Add custom CSS for styling */
+        .search-container {
+            position: relative;
+        }
+
+        #blogSearchInput {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-bottom: 2px solid #007BFF;
+            border-radius: 0;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+
+        #blogSearchInput:focus {
+            border-color: #FFA500;
+        }
+        /* Custom CSS for form styling */
+        #my-form {
+            background-color: #000;
+            color: #8B4513; /* Dark Brown */
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        #my-form label {
+            color: #8B4513; /* Dark Brown */
+        }
+
+        #my-form button {
+            background-color: #8B4513; /* Dark Brown */
+            color: #fff;
+        }
+
+        #my-form button:hover {
+            background-color: #000;
+            color: #8B4513; /* Dark Brown */
+        }
+
+        #my-form-status {
+            color: #fff;
+        }
     </style>
 </head>
 
@@ -199,7 +242,7 @@
     <!-- Navigation Bar with Transparent to Black Background on Scroll -->
     <nav class="navbar navbar-expand-lg fixed-top" style="color:white;z-index:999;">
         <div class="container">
-            <a class="navbar-brand" href="/">Modern Gym</a>
+            <a class="navbar-brand" href="/">Gym-Khana</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="color:grey">
                 <span class="navbar-toggler-icon" style="background-color:rgb(102, 98, 98);color:black">&darr;</span>
