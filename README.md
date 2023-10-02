@@ -54,24 +54,6 @@ Please refer to the [Contributing Guide](CONTRIBUTING.md) for more guidelines an
 For licensing information, please refer to [License](LICENSE)
 
 ### 🎉 Thanks for contributing to Gym-Khana 🎉
-
-![Gym-Khana Banner](https://example.com/gym-khana-banner.png)
-
-<p align="center">
-<a href="https://example.com/gym-khana-telegram">
-<img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" height="50px" />
-</a>&nbsp; &nbsp; &nbsp;
-<a href="https://example.com/gym-khana-linkedin">
-<img src="https://raw.githubusercontent.com/alexnaiman/alexnaiman/master/resources/linkedin.webp" height="50px" />
-</a>&nbsp; &nbsp; &nbsp;
-<a href="https://example.com/gym-khana-instagram">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/CIS-A2K_Instagram_Icon_%28Pink%29.svg/640px-CIS-A2K_Instagram_Icon_%28Pink%29.svg.png" height="50px" />
-</a>&nbsp; &nbsp; &nbsp;
-<a href="https://example.com/gym-khana-youtube">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Antu_youtube-dl.svg/640px-Antu_youtube-dl.svg.png" height="50px" />
-</a>&nbsp; &nbsp; &nbsp;
-</p>
-
 <p align="center">
 Don't forget to star ⭐ Gym-Khana repository!
 </p>
