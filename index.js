@@ -8,7 +8,8 @@ const app = express()
 const hbs = exphbs.create({});
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
-dotenv.config({ path: 'config.env' });
+dotenv.config({ path: path.join(__dirname, 'config.env') });
+
 
 const PORT = process.env.PORT || 8080;
 
