@@ -1,6 +1,6 @@
 # Contributing Guidelines
 
-[AnimePedia](https://github.com/KumarAbhay98/Gym_Khana_Hacktoberfest_2023) is [MIT](https://github.com/KumarAbhay98/Gym_Khana_Hacktoberfest_2023/blob/main/LICENSE) licensed and accepts contributions via GitHub pull requests. This document outlines some of the conventions on development workflow, commit message formatting, contact points, and other resources to make it easier to get your contribution accepted.
+[Gym-Khana](https://github.com/KumarAbhay98/Gym_Khana_Hacktoberfest_2023) is [MIT](https://github.com/KumarAbhay98/Gym_Khana_Hacktoberfest_2023/blob/main/LICENSE) licensed and accepts contributions via GitHub pull requests. This document outlines some of the conventions on development workflow, commit message formatting, contact points, and other resources to make it easier to get your contribution accepted.
 
 ## Getting Started
 
