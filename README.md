@@ -16,38 +16,39 @@ There's always room for contributions, whether you're a novice or an expert. In 
 
 ## How to Contribute?
 
-Contributing to Gym-Khana is straightforward. Just follow these steps:
+Contributing to Gym-Khana is very easy as long as you follow the below steps 😉
 
-- Choose a fitness or beauty tip to contribute, ensuring it's not already on the website (use the search feature).
-- `Fork` the repository.
-- Download any relevant images and upload them to the `images` folder, ensuring they have valid names.
-- Copy the provided template code below and fill in the details as directed.
+- Pick a topic for writing the blog, make sure it's not there on the site yet (Use Search feature)
+- `Fork` the repository
+- Copy the address of any relevant image from internet and paste it under src in the code template. Make sure that the address of the image is not too large.
+- Copy the Card template code given below & fill in the information as directed
+- Note: Copy & paste the entire code as it is after filling the details of the character!
+<!--Sample [Blog Title] Blog start-->
+                 {
+        title: "X Y Z",
+        src: "",
+        excerpt: "",
+        content: `<p></p>`,
+        author: "",
+        date: "Month date, 2023",
+        slug: "x-y-z",
+    },
+                <!--Sample [Character Name] card end-->
+                <!--Add your card below this line -->
 
-<!-- Sample [Tip Title] card start -->
-<div class="card mb-3 card-bg my-4" style="max-width: 100%;">
-    <div class="row no-gutters">
-        <div class="col-md-4">
-            <!-- Replace image_name_here with the complete image name (with extension) that you uploaded -->
-            <img src="./images/[image_name_here]" alt="[Tip Title here]" height="390px" width="300px">
-        </div>
-    </div>
-</div>
-<!-- Sample [Tip Title] card end -->
-<!-- Add your card below this line -->
-
-- Paste the edited template code into the `data.js` file just below the last blog added.
-- `Sync` your fork and create a `Pull Request`. Resolve any conflicts with the main branch if necessary.
-- Title your PR with the following format:
-
-  - Congratulations! You've successfully contributed to Gym-Khana. Your tip will appear on the site after your PR gets merged 😄
-- Don't forget to star ⭐ the repository if you found it useful!
-
+- Paste the edited template code into the `blogs.js` file in the folder data in the roor directory.
+- `Sync` your Fork & then create a `Pull Request`. If there are any conflicts with the main branch then resolve them first.
+```
+title: Topic of the blog
+```
+- That's it, you have successfully contributed to Gym-Khana. Your character will appear on the site within minutes of your PR getting merged 😄
+- Star ⭐ the repository if you liked it!
 Please refer to the [Contributing Guide](CONTRIBUTING.md) for more guidelines and the Code of Conduct.
 
 ## Contributors
 
 <a href="https://github.com/your-github-username">
-<img src="https://contrib.rocks/image?repo=your-github-username/gym-khana" />
+<img width="947" alt="gym-khana" src="https://github.com/KumarAbhay98/Gym_Khana_Hacktoberfest_2023/assets/92244303/62faff1c-3018-4aec-b7ab-9c71d1607762">
 </a>
 
 ## License
