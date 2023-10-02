@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modern Gym</title>
+    <title>Gym-Khana</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         /* Custom styles for the parallax effect */
@@ -24,7 +23,6 @@
             width: 100%;
             height: 100%;
             background-color: rgba(0, 0, 0, 0.529);
-
         }
 
         div.hero-text {
@@ -57,10 +55,7 @@
             height: 100%;
             z-index: 10;
             opacity: 0.8;
-            /* Set the z-index of the background image */
-            /* Adjust the opacity of the background image */
             background-attachment: fixed;
-            /* Make the background image fixed */
         }
 
         .container {
@@ -80,7 +75,7 @@
             /* Ensure the container takes up the full viewport height */
         }
 
-        @media(max-width:768px) {
+        @media (max-width: 768px) {
             .hero-container {
                 max-width: 300px;
             }
@@ -96,7 +91,7 @@
             text-align: center;
             color: rgb(11, 11, 11);
             font-weight: 600;
-            font: size 1.5rem;
+            font-size: 1.5rem;
             line-height: 1.5rem;
             padding-bottom: 3rem;
         }
@@ -111,10 +106,9 @@
             box-shadow: 1px 1px 3px #333;
         }
 
-        @media(max-width:768px) {
+        @media (max-width: 768px) {
             .hero-image {
-
-                margin: 0rem auto;
+                margin: 0 auto;
             }
         }
 
@@ -154,7 +148,6 @@
             height: 200px;
             /* Adjust the height as needed */
             max-width: 100%;
-
         }
 
         .btn-smooth {
@@ -170,27 +163,30 @@
 
         /* Custom CSS for Navbar Scroll Transition */
         .navbar {
-            
             background-color: rgba(0, 0, 0, 0.574);
         }
-        .navbar a{
-            color:rgb(234, 219, 219);
+
+        .navbar a {
+            color: rgb(234, 219, 219);
             text-decoration: none;
-            
         }
-        .navbar-scrolled{
+
+        .navbar-scrolled {
             background-color: rgba(0, 0, 0, 0.983);
-            color:white;
+            color: white;
             /* Change to your desired background color */
             transition: background-color 0.3s ease-in-out;
         }
-        .navbar-scrolled a{
-            color:white;
+
+        .navbar-scrolled a {
+            color: white;
         }
-        input{
+
+        input {
             background-color: grey;
             color: #333;
         }
+
         /* Add custom CSS for styling */
         .search-container {
             position: relative;
@@ -209,6 +205,7 @@
         #blogSearchInput:focus {
             border-color: #FFA500;
         }
+
         /* Custom CSS for form styling */
         #my-form {
             background-color: #000;
@@ -236,16 +233,13 @@
         }
     </style>
 </head>
-
 <body>
-
-    <!-- Navigation Bar with Transparent to Black Background on Scroll -->
-    <nav class="navbar navbar-expand-lg fixed-top" style="color:white;z-index:999;">
+    <nav class="navbar navbar-expand-lg fixed-top" style="color: white; z-index: 999;">
         <div class="container">
             <a class="navbar-brand" href="/">Gym-Khana</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="color:grey">
-                <span class="navbar-toggler-icon" style="background-color:rgb(102, 98, 98);color:black">&darr;</span>
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="color: grey;">
+                <span class="navbar-toggler-icon" style="background-color: rgb(102, 98, 98); color: black;">&darr;</span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
@@ -265,20 +259,22 @@
             </div>
         </div>
     </nav>
-
-    {{!-- the below body will render whatever is inside the home.handlebars
-    --}}
+    <!-- the below body will render whatever is inside the home.handlebars -->
     {{{body}}}
-
     <!-- Footer -->
     <footer class="bg-dark text-white text-center py-3">
         <div class="container">
             &copy; 2023 Modern Gym
         </div>
-
     </footer>
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- JavaScript to handle the scroll event -->
     <script>
-        // JavaScript to handle the scroll event
         window.addEventListener("scroll", function () {
             const navbar = document.querySelector(".navbar");
             if (window.scrollY > 10) {
@@ -289,11 +285,32 @@
         });
     </script>
 
+    <script>
+        $(document).ready(function () {
+            // Reference to the input field
+            var $searchInput = $('#blogSearchInput');
 
-    <!-- Bootstrap JS and jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+            // Reference to the blog post container
+            var $blogContainer = $('.row');
+
+            // Event listener for input changes
+            $searchInput.on('input', function () {
+                var searchQuery = $(this).val().toLowerCase();
+
+                // Loop through each blog post
+                $blogContainer.find('.col-lg-4').each(function () {
+                    var $blogPost = $(this);
+                    var blogTitle = $blogPost.find('h2').text().toLowerCase();
+
+                    // Check if the blog post title contains the search query
+                    if (blogTitle.indexOf(searchQuery) !== -1) {
+                        $blogPost.show();
+                    } else {
+                        $blogPost.hide();
+                    }
+                });
+            });
+        });
+    </script>
 </body>
-
 </html>
