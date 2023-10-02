@@ -62,12 +62,12 @@ blogs = [
         date: "August 13, 2023",
         slug: "best-foods-for-summer",
     },
-   // Paste your template here 
+    // Paste your template here 
     {
-    title: "How to Build Strong Abs",
-    src: "https://www.bodybuilding.com/images/2017/august/6-ways-to-get-ripped-six-pack-abs-header-v2-960x540.jpg",
-    excerpt: "Discover effective exercises and tips to build strong and defined abdominal muscles.",
-    content: `
+        title: "How to Build Strong Abs",
+        src: "https://www.bodybuilding.com/images/2017/august/6-ways-to-get-ripped-six-pack-abs-header-v2-960x540.jpg",
+        excerpt: "Discover effective exercises and tips to build strong and defined abdominal muscles.",
+        content: `
         <p>If you've always wanted strong, defined abs, you're in the right place. Building a solid core not only looks great but also contributes to overall strength and stability. In this blog post, we'll guide you through the process of achieving impressive abs.</p>
         <p><strong>1. Core Exercises:</strong></p>
         <p>The key to strong abs is targeted core exercises. Include moves like crunches, leg raises, planks, and Russian twists in your routine. Aim to work your core 2-3 times a week.</p>
@@ -86,10 +86,11 @@ blogs = [
         <p><strong>Conclusion:</strong></p>
         <p>Building strong abs requires dedication and a multifaceted approach. Combine targeted exercises, cardiovascular workouts, a balanced diet, and consistency to achieve the chiseled abs you desire.</p>
     `,
-    author: "DHRUV TYAGI",
-    date: "September 03, 2023",
-    slug: "how-to-build-strong-abs",
-}
+        author: "DHRUV TYAGI",
+        date: "September 03, 2023",
+        slug: "how-to-build-strong-abs",
+    },
+    // Paste your template here 
 
 ];
 module.exports = blogs;
