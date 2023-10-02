@@ -46,7 +46,7 @@ Please refer to the [Contributing Guide](CONTRIBUTING.md) for more guidelines an
 ## Contributors
 
 <a href="https://github.com/your-github-username">
-<img width="947" alt="gym-khana" src="https://github.com/KumarAbhay98/Gym_Khana_Hacktoberfest_2023/assets/92244303/62faff1c-3018-4aec-b7ab-9c71d1607762">
+    <img src="https://contrib.rocks/image?repo=DecodersCommunity/animepedia" />
 </a>
 
 ## License
@@ -54,6 +54,8 @@ Please refer to the [Contributing Guide](CONTRIBUTING.md) for more guidelines an
 For licensing information, please refer to [License](LICENSE)
 
 ### 🎉 Thanks for contributing to Gym-Khana 🎉
+<img width="947" alt="gym-khana" src="https://github.com/KumarAbhay98/Gym_Khana_Hacktoberfest_2023/assets/92244303/62faff1c-3018-4aec-b7ab-9c71d1607762">
+
 <p align="center">
 Don't forget to star ⭐ Gym-Khana repository!
 </p>
