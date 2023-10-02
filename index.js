@@ -13,7 +13,7 @@ dotenv.config({ path: 'config.env' });
 const PORT = process.env.PORT || 8080;
 
 
-
+app.set('views', path.join(__dirname, 'views'))
 //here we are going to use routes now
 app.use('/', require(path.join(__dirname, './routes/app.js')))
 
