@@ -1,4 +1,5 @@
-<p align="center"><img src="./images/main_bg.jpg" height="50%" width="80%" /></p>
+<p align="center"><img width="140" alt="gym-khana brand" src="https://github.com/KumarAbhay98/Gym_Khana_Hacktoberfest_2023/assets/92244303/4efe70f6-82f9-421b-a38d-ed79ac40e1a9">
+</p>
 
 # Gym-Khana
 
