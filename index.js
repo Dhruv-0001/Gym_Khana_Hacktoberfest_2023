@@ -12,7 +12,7 @@ dotenv.config({ path: 'config.env' });
 
 const PORT = process.env.PORT || 8080;
 
-app.use(express.static(path.join(__dirname,"../static/style.css")))
+
 
 //here we are going to use routes now
 app.use('/', require(path.join(__dirname, './routes/app.js')))
