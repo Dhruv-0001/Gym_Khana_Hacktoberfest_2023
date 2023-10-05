@@ -21,9 +21,9 @@ Contributing to Gym-Khana is very easy as long as you follow the below steps ðŸ˜
 
 - Pick a topic for writing the blog, make sure it's not there on the site yet (Use Search feature)
 - `Fork` the repository
+- Copy the Card template code given below & fill in the information as directed.
 - Copy the address of any relevant image from internet and paste it under src in the code template. Make sure that the address of the image is not too large.
-- Copy the Card template code given below & fill in the information as directed
-- Note: Copy & paste the entire code as it is after filling the details of the character!
+- Note: Copy & paste the entire code as it is after filling the details of the blog!
 <!--Sample [Blog Title] Blog start-->
     {
         title: "X Y Z",
@@ -34,7 +34,7 @@ Contributing to Gym-Khana is very easy as long as you follow the below steps ðŸ˜
         date: "Month date, 2023",
         slug: "x-y-z",
     },
-- Paste the edited template code into the `blogs.js` file in the folder data in the roor directory.
+- Paste the edited template code into the `blogs.js` file in the folder "data" in the roor directory.
 - `Sync` your Fork & then create a `Pull Request`. If there are any conflicts with the main branch then resolve them first.
 ```
 title: Topic of the blog
