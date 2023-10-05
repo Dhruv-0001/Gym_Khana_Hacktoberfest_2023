@@ -45,7 +45,7 @@ Please refer to the [Contributing Guide](CONTRIBUTING.md) for more guidelines an
 
 ## Contributors
 
-<a href="https://github.com/your-github-username">
+<a href="https://github.com/your-github-KumarAbhay98">
     <img src="https://contrib.rocks/image?repo=Gym_Khana_Hacktoberfest_2023" />
 </a>
 
