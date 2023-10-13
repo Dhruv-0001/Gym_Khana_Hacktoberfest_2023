@@ -72,56 +72,6 @@ blogs = [
         date: "September 03, 2023",
         slug: "how-to-build-strong-abs",
     },
-
-    {
-        title: "Achieving Radiant Skin: Tips for a Brighter Face",
-        src: "https://example.com/images/radiant-skin.jpg",
-        excerpt: "Unlock the secrets to a glowing complexion with our comprehensive skincare guide.",
-        content: `
-            <p>Are you yearning for that elusive radiant skin? Look no further. Achieving a brighter and more beautiful complexion is within your reach, and it doesn't require a Hollywood-sized budget. In this in-depth guide, we will walk you through the steps to make your face bright and vibrant.</p>
-    
-            <img src="https://example.com/images/cleanse.jpg" alt="Cleansing">
-            <h2>Cleanse Your Face Thoroughly</h2>
-            <p>The foundation of radiant skin starts with a meticulous cleansing routine. Embrace a gentle, pH-balanced cleanser as your daily companion, effectively bidding farewell to dirt, makeup, and impurities. This pivotal step keeps pesky clogged pores and bothersome breakouts at bay.</p>
-    
-            <img src="https://example.com/images/exfoliate.jpg" alt="Exfoliate">
-            <h2>Exfoliate Regularly</h2>
-            <p>Revitalize your skin by introducing a mild exfoliant into your skincare repertoire 2-3 times weekly. The result? Fresher, brighter skin, as it banishes dead skin cells responsible for dullness.</p>
-    
-            <img src="https://example.com/images/hydrate.jpg" alt="Hydrate">
-            <h2>Hydrate Your Skin</h2>
-            <p>Proper hydration is paramount for a radiant complexion. A suitable moisturizer tailored to your skin type will keep it supple and well-hydrated. Don't forget to bolster your efforts with ample water intake to maintain your skin's moisture equilibrium.</p>
-    
-            <img src="https://example.com/images/sunscreen.jpg" alt="Sunscreen">
-            <h2>Protect Your Skin from UV Rays</h2>
-            <p>The sun can be a formidable adversary when it comes to skin dullness and premature aging. Safeguard your skin's integrity by generously applying a broad-spectrum sunscreen boasting an SPF of at least 30. Shielding your skin from harmful UV rays wards off dark spots and wrinkles.</p>
-    
-            <img src="https://example.com/images/diet.jpg" alt="Diet">
-            <h2>Eat a Healthy Diet</h2>
-            <p>Your diet wields considerable influence over your skin's radiance. Elevate your intake of fruits, vegetables, and antioxidant-rich foods. These nutritional powerhouses combat free radicals, ushering in a brighter complexion.</p>
-    
-            <img src="https://example.com/images/sleep.jpg" alt="Sleep">
-            <h2>Get Adequate Sleep</h2>
-            <p>Quality sleep is the unsung hero of skin rejuvenation. Aim for 7-9 hours of restorative sleep each night, allowing your skin ample time to repair and regenerate. Bid adieu to tired-looking skin, along with dark circles and puffiness.</p>
-    
-            <img src="https://example.com/images/stress.jpg" alt="Stress">
-            <h2>Stay Stress-Free</h2>
-            <p>Chronic stress can wreak havoc on your skin. Embrace stress-reduction techniques like meditation, yoga, or deep breathing exercises. Your skin will thank you by radiating with a newfound inner peace.</p>
-    
-            <img src="https://example.com/images/skincare.jpg" alt="Skincare">
-            <h2>Use Skin-Friendly Products</h2>
-            <p>Exercise discernment in your skincare product choices, ensuring they align with your skin type and are devoid of harsh chemicals. Commit to a consistent skincare routine, incorporating a high-quality serum to address specific skin concerns.</p>
-    
-            <img src="https://example.com/images/dermatologist.jpg" alt="Dermatologist">
-            <h2>Consult a Dermatologist</h2>
-            <p>If persistent skin issues or concerns plague you, a dermatologist's expertise can be your guiding light. Personalized advice and tailored treatments await you on your quest for luminous skin.</p>
-    
-            <p>Embark on this journey towards radiant skin with patience and dedication. Beautiful skin is an attainable goal when you invest in self-care and adhere to a consistent skincare routine.</p>
-        `,
-        author: "Abhay Kumar",
-        date: "October 5, 2023",
-        slug: "achieving-radiant-skin-tips-for-brighter-face",
-    }
     // Paste your template here 
 ];
 module.exports = blogs;
