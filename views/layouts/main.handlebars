@@ -129,7 +129,7 @@
             color: #777;
         }
 
-        h2 {
+        h4{
             font-size: 28px;
             color: #333;
             margin-top: 20px;
@@ -300,7 +300,7 @@
                 // Loop through each blog post
                 $blogContainer.find('.col-lg-4').each(function () {
                     var $blogPost = $(this);
-                    var blogTitle = $blogPost.find('h2').text().toLowerCase();
+                    var blogTitle = $blogPost.find('h4').text().toLowerCase();
 
                     // Check if the blog post title contains the search query
                     if (blogTitle.indexOf(searchQuery) !== -1) {

@@ -15,7 +15,7 @@ blogs = [
         </ol>
         <p><strong>Conclusion:</strong> Building the habit of exercising is a journey that requires dedication and patience. By setting realistic goals, creating a consistent schedule, finding enjoyable activities, and staying accountable, you can transform exercise into an integral part of your daily life. With each workout, you're taking a significant step toward a healthier and happier you. Start today and embrace the benefits of a regular exercise routine. Your body and mind will thank you.</p>`,
         author: "Abhay Kumar",
-        date: "August 10, 2023",
+        date: "September 1, 2023",
         slug: "build-exercise-habit",
     },
     {
@@ -41,32 +41,18 @@ blogs = [
             <p>Building a fitness routine takes time and dedication. Start with small steps, gradually increase the intensity, and stay consistent. Remember that it's not just about looking good; it's about feeling healthy and energetic in your everyday life.</p>
             `,
         author: "Abhay Kumar",
-        date: "August 11, 2023",
+        date: "September 2, 2023",
         slug: "best-fitness-exercises",
-    },
-    {
-        title: "Best Exercises for a Bright and Sharp Face",
-        src: "https://th.bing.com/th/id/OIP.GdPMAekcSKNLI6ffOs8-AAHaHo?pid=ImgDet&rs=1",
-        excerpt: "Explore facial exercises and routines to keep your face looking bright, youthful, and sharp.",
-        content: "Your face deserves attention too! In this blog, we'll delve into facial exercises and practices that can help maintain a bright and sharp appearance. These exercises target facial muscles, promote blood circulation, and contribute to a healthy complexion. Say goodbye to dull skin!<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni omnis veritatis repellendus praesentium amet repudiandae tempore sequi quae explicabo ad magnam numquam quo, distinctio quibusdam nihil veniam rerum expedita accusamus quas aut perferendis harum modi ut quisquam? Dignissimos qui eaque dolor, explicabo laboriosam quam maiores magni voluptas commodi autem odio temporibus delectus suscipit doloribus quidem repellat. Reprehenderit laborum dolore incidunt facere, illo modi voluptate qui necessitatibus optio quis voluptates enim beatae ipsa reiciendis autem repudiandae provident asperiores architecto labore et quibusdam voluptatem? Beatae, sint culpa itaque possimus pariatur, eligendi neque rem temporibus excepturi ducimus error nihil reprehenderit dolore sed a ipsam officiis. Est, magni pariatur! Nemo iste porro, vitae quod iure eaque voluptate consequatur quos sit enim quas omnis et numquam esse? Exercitationem voluptates ipsa sunt voluptate, in dignissimos amet debitis libero eligendi animi, officia aliquid velit tempore vero natus corrupti. Eaque pariatur eius suscipit numquam enim ad aperiam, consequatur impedit doloremque ipsa voluptatum, magnam doloribus! Tempora maxime possimus quod, necessitatibus inventore, natus eligendi, iste consequuntur fugiat maiores rerum quia explicabo quidem. Mollitia ipsa rem necessitatibus! Quidem sit quas voluptate ut delectus, id magnam blanditiis nihil impedit, suscipit, sint quia architecto ipsam sed earum a pariatur autem quam ab eveniet.",
-        author: "Abhay Kumar",
-        date: "August 12, 2023",
-        slug: "facial-exercises-bright-face",
-    },
-    {
-        title: "Best Foods to Eat in Summers",
-        src: "https://foodrevolution.org/wp-content/uploads/iStock-984844438.jpg",
-        excerpt: "Discover a list of delicious and refreshing foods to keep you cool and energized during hot summers.",
-        content: "Summers can be scorching, but your diet can help you stay cool. In this blog, we'll share a selection of the best foods to enjoy during the summer season. From hydrating fruits to light and nutritious meals, these choices will keep you refreshed and energized under the sun.<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni omnis veritatis repellendus praesentium amet repudiandae tempore sequi quae explicabo ad magnam numquam quo, distinctio quibusdam nihil veniam rerum expedita accusamus quas aut perferendis harum modi ut quisquam? Dignissimos qui eaque dolor, explicabo laboriosam quam maiores magni voluptas commodi autem odio temporibus delectus suscipit doloribus quidem repellat. Reprehenderit laborum dolore incidunt facere, illo modi voluptate qui necessitatibus optio quis voluptates enim beatae ipsa reiciendis autem repudiandae provident asperiores architecto labore et quibusdam voluptatem? Beatae, sint culpa itaque possimus pariatur, eligendi neque rem temporibus excepturi ducimus error nihil reprehenderit dolore sed a ipsam officiis. Est, magni pariatur! Nemo iste porro, vitae quod iure eaque voluptate consequatur quos sit enim quas omnis et numquam esse? Exercitationem voluptates ipsa sunt voluptate, in dignissimos amet debitis libero eligendi animi, officia aliquid velit tempore vero natus corrupti. Eaque pariatur eius suscipit numquam enim ad aperiam, consequatur impedit doloremque ipsa voluptatum, magnam doloribus! Tempora maxime possimus quod, necessitatibus inventore, natus eligendi, iste consequuntur fugiat maiores rerum quia explicabo quidem. Mollitia ipsa rem necessitatibus! Quidem sit quas voluptate ut delectus, id magnam blanditiis nihil impedit, suscipit, sint quia architecto ipsam sed earum a pariatur autem quam ab eveniet.",
-        author: "Abhay Kumar",
-        date: "August 13, 2023",
-        slug: "best-foods-for-summer",
     },
     {
     title: "How to Build Strong Abs",
     src: "https://www.bodybuilding.com/images/2017/august/6-ways-to-get-ripped-six-pack-abs-header-v2-960x540.jpg",
     excerpt: "Discover effective exercises and tips to build strong and defined abdominal muscles.",
     content: `
+        title: "How to Build Strong Abs",
+        src: "https://www.bodybuilding.com/images/2017/august/6-ways-to-get-ripped-six-pack-abs-header-v2-960x540.jpg",
+        excerpt: "Discover effective exercises and tips to build strong and defined abdominal muscles.",
+        content: `
         <p>If you've always wanted strong, defined abs, you're in the right place. Building a solid core not only looks great but also contributes to overall strength and stability. In this blog post, we'll guide you through the process of achieving impressive abs.</p>
         <p><strong>1. Core Exercises:</strong></p>
         <p>The key to strong abs is targeted core exercises. Include moves like crunches, leg raises, planks, and Russian twists in your routine. Aim to work your core 2-3 times a week.</p>
@@ -124,8 +110,7 @@ blogs = [
 "author": "Dhruv Tyagi",
 "date": "October 13, 2023",
 "slug": "the-power-of-mindfulness"
-},
-// Add Your new blog Here.
-
+}
+// Paste your template here
 ];
 module.exports = blogs;

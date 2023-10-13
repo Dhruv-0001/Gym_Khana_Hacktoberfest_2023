@@ -10,14 +10,11 @@ app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
 dotenv.config({ path: path.join(__dirname, 'config.env') });
 
-
 const PORT = process.env.PORT || 8080;
-
 
 app.set('views', path.join(__dirname, 'views'))
 //here we are going to use routes now
 app.use('/', require(path.join(__dirname, './routes/app.js')))
-
 
 app.listen(PORT,()=>{
     console.log(`the app is running at http://localhost:${PORT}`)
