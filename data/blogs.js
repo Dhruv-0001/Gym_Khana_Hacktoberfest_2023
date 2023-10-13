@@ -44,7 +44,6 @@ blogs = [
         date: "September 2, 2023",
         slug: "best-fitness-exercises",
     },
-    // Paste your template here 
     {
         title: "How to Build Strong Abs",
         src: "https://www.bodybuilding.com/images/2017/august/6-ways-to-get-ripped-six-pack-abs-header-v2-960x540.jpg",
